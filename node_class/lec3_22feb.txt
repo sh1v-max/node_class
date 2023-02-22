@@ -1,0 +1,14 @@
+INTRODUCTION to SPA, MPA and React framework--
+what is UI/UX
+
+UI<< user interface >> dealing with interface of particular website so that user can interact and explore the website
+    AND got thru various components
+    >>is simple/ not to complex
+    >>easy to navigate
+
+single page application--
+    >>does not require reloading. everything loads at a time only>>
+    
+<<typically only ONE reactDOM.render() call in single page application.
+<<multi page application uses reactDOM.render() call per window. 
+
