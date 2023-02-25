@@ -1,0 +1,72 @@
+<<just a snapshot of TERMINAL>>
+
+ E:\Projects\adv_webd_class\node>node
+Welcome to Node.js v16.17.0.
+Type ".help" for more information.
+> .exit
+
+E:\Projects\adv_webd_class\node>node
+Welcome to Node.js v16.17.0.
+Type ".help" for more information.
+> .help
+.break    Sometimes you get stuck, this gets you out
+.clear    Alias for .break
+.editor   Enter editor mode
+.exit     Exit the REPL
+.help     Print this help message
+.load     Load JS from a file into the REPL session
+.save     Save all evaluated commands in this REPL session to a file
+
+Press Ctrl+C to abort current expression, Ctrl+D to exit the REPL
+
+<<what is REPL<<REPL stands for Read Evaluate Print Loop, 
+and it is a programming language environment (basically a console window) that takes 
+single expression as user input and returns the result back to the console after execution.
+The REPL session provides a convenient way to quickly test simple JavaScript code. >>
+
+> 5+5
+10
+> 5+(5+5)-5
+10
+> console.log("shiv")
+shiv
+undefined
+> var a='isha'
+undefined
+> a
+'isha'
+> var b= 'sharma'
+undefined
+> b
+'sharma'
+> a+b
+'ishasharma'
+>
+==========================================================================================================================
+<< multi line codes can also be done in same>>
+**example**
+> var x=0;
+undefined
+> do
+... {
+... x++;
+... console.log(`value of x is ${x}`);
+... }
+... while(x<5);
+value of x is 1
+value of x is 2
+value of x is 3
+value of x is 4
+value of x is 5
+undefined
+>
+
+=============================================================================================================================
+
+> .editor       //to enter into editor mode <<here you can declare funtions>>
+// Entering editor mode (Ctrl+D to finish, Ctrl+C to cancel)
+
+** see example below **
+
+
+
