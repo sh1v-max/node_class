@@ -1,9 +1,20 @@
 // go to (https://nodejs.org/docs/latest-v16.x/api/console.html#console) for more information
 
 // to create previous file you need to type (node console.js{node<file name(console.js in this case)}) in TERMINAL
+
+// FS module:- var fs = require('fs'); Common use for the File System module: Read files. Create files. Update files.
+
 const fs =require('fs')
 fs.writeFileSync('read.text', "this is node js module"); //('file name', "content in file")
 fs.appendFileSync('read.text', " i am editing your file")  // to update the content inside file
+fs.copyFileSync('read.text','read2.text')
+console.log('data copied')
+
+fs.renameSync('read2.text','myfile.text')    //it will rename the file name read2 to myfile.text
+fs.rmSync('myfile.text')    //it will remove the file given in parameter
+
+// to read a file from terminal..... write <node file_name>/ node console.js in this case
+
 const b=fs.readFileSync('read.text');  //command to read the content
 console.log(b);
 // this will show output in different data type which is (buffer) ie. you wont get actual content.
