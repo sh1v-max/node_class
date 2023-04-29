@@ -1,9 +1,3 @@
-// body-parser is a body parsing middleware, 
-// which populates the req. body with (for example) 
-// the value of the parametres of a POST . 
-// cookie-parser parses cookies and populates req. 
-// cookies with objects bidden to cookie names
-
 // install cookie using <<npm install cookie-parser
 
 const express=require('express')
