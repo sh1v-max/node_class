@@ -1,0 +1,11 @@
+{
+  "name": "streammodule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "buffer.js",
+  "scripts": {
+    "start" : "nodemon stream.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

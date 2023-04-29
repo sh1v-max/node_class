@@ -1,0 +1,23 @@
+{
+  "name": "adv_webd_class",
+  "version": "1.0.0",
+  "description": "",
+  "main": "event_listner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sh1v-max/node_class.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sh1v-max/node_class/issues"
+  },
+  "homepage": "https://github.com/sh1v-max/node_class#readme",
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
